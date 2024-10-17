@@ -1,0 +1,63 @@
+.header{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.inputs{
+    margin: 20px auto;
+    padding: 2px;
+    display: flex;
+    width: 500px;
+}
+.input{
+    width: 50%;
+}
+
+
+input, select{
+    padding: 2px;
+    width: 90%;
+    margin: 2px;
+    border-radius: 2px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+
+.input label{
+    margin: 0 5px;
+}
+
+#button{
+    padding: 2px;
+    margin: 2px;
+    height: 40px;
+    width: 45%;
+    font-size: 1rem;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#radio input {
+    width: 10%;
+    height: 20%;
+}
+
+#radio label{
+    display: inline;
+}
+
+.required{
+    border-color: red;
+}
+
+.warning{
+    color: red;
+}
